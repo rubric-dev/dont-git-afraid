@@ -38,12 +38,12 @@ Git 용어를 그대로 쓰지 마세요. 반드시 아래 표현으로 바꾸�
 | commit | 세이브 | 💾 |
 | push | 올리기 | ☁️ |
 | pull | 받아오기 | 📥 |
-| branch | 갈래 | 🌿 |
+| branch | 사본 | 🌿 |
 | merge | 합치기 | 🤝 |
 | stage / git add | 담아두기 | 🧺 |
 | stash | 잠깐 치워두기 | 🗄️ |
-| rebase | 줄 세우기 | ⏳ |
-| checkout / switch | 갈래 이동 | 🚶 |
+| rebase | 순서정리 | ⏳ |
+| checkout / switch | 사본 이동 | 🚶 |
 | conflict | 충돌 | 💥 |
 | HEAD | 현재 위치 | 📍 |
 | remote / origin | GitHub (클라우드) | 🌐 |
@@ -284,7 +284,7 @@ bash <SKILL_DIR>/git-status.sh
 ```
 🟢 안전  [█░░░]    — 올리기, 세이브, 담아두기
 🟡 조심  [██░░]    — 받아오기 (고치던 파일 있을 때)
-🟠 주의  [███░]    — 줄 세우기, 합치기
+🟠 주의  [███░]    — 순서정리, 합치기
 🔴 위험  [████]    — 강제 덮어쓰기, 되돌리기(hard)
 ```
 
@@ -419,11 +419,11 @@ bash <SKILL_DIR>/git-status.sh
 쓸 코드만 남기고 나머지를 지우면 돼요.
 ```
 
-### 갈래 이동 (git checkout / switch)
+### 사본 이동 (git checkout / switch)
 
 **실행 전:**
 ```
-🌿 다른 갈래로 이동할게요
+🌿 다른 사본으로 이동할게요
    🌿 main  →  🌿 feature/login
 원본(main)은 그대로예요. 걱정 마세요!
 🟢 안전  [█░░░]
@@ -433,14 +433,14 @@ bash <SKILL_DIR>/git-status.sh
 
 **실행 전:**
 ```
-🤝 갈래를 합칠게요
+🤝 사본을 합칠게요
    🌿 feature/login  →  🌿 main
 🟠 주의  [███░]
 같은 파일을 안 건드렸으면 알아서 합쳐져요.
 ↩️ 되돌리기 가능
 ```
 
-### 줄 세우기 (git rebase)
+### 순서정리 (git rebase)
 
 **실행 전:**
 ```
@@ -524,7 +524,7 @@ GitHub에 있는 기록을 내 걸로 완전히 바꿔버려요!
 ✅ 가져오기 완료!
    📂 ./my-project 폴더가 생겼어요
    📁 파일 42개, 세이브 기록 15개 포함
-   🌿 현재 갈래: main
+   🌿 현재 사본: main
 ```
 
 ### 저장소 만들기 (git init)

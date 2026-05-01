@@ -24,7 +24,7 @@ This repo **is** a Claude Code Skill — not an app that uses one. The deliverab
 
 The skill enforces a **terminology translation layer** for vibe-coders who don't know Git. When editing `SKILL.md` or the supporting guides, these invariants must hold:
 
-1. **Two languages, two contexts** — User-facing explanations use translated Korean terms (`commit → 세이브`, `push → 올리기`, `branch → 갈래`, etc. with emojis). Actual `Bash` tool invocations still use real git commands (`git commit`, `git push`). The translation table at the top of `SKILL.md` is the source of truth — if you add a new term anywhere in the guides, add it to that table too.
+1. **Two languages, two contexts** — User-facing explanations use translated Korean terms (`commit → 세이브`, `push → 올리기`, `branch → 사본`, etc. with emojis). Actual `Bash` tool invocations still use real git commands (`git commit`, `git push`). The translation table at the top of `SKILL.md` is the source of truth — if you add a new term anywhere in the guides, add it to that table too.
 
 2. **`git-status.sh` is the eyes** — the skill never reads git state by running ad-hoc `git status` / `git log` commands. It runs `bash dont-git-afraid/git-status.sh` and parses the structured output (sections delimited by `--- WORKING ---`, `--- STAGED ---`, `--- DANGERS ---`, etc.). If you change the script's output format, every parser-style instruction in `SKILL.md` must be updated in lockstep.
 

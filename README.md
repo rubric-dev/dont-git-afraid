@@ -37,7 +37,7 @@ cp -r dont-git-afraid .claude/skills/
 ## Git 규칙
 사용자에게 Git 작업 상태를 설명·보고·확인할 때는 반드시
 `dont-git-afraid` 스킬의 용어 변환 규칙을 따르세요
-(commit→세이브, push→올리기, branch→갈래 등 + 이모지).
+(commit→세이브, push→올리기, branch→사본 등 + 이모지).
 
 단, Bash 도구로 실제 git 명령을 실행할 때는 원래 git 용어를
 그대로 사용합니다 (`git commit`, `git push`, ...).
@@ -60,11 +60,11 @@ cp -r dont-git-afraid .claude/skills/
 | commit | 💾 세이브 |
 | push | ☁️ GitHub에 올리기 |
 | pull | 📥 받아오기 |
-| branch | 🌿 갈래 |
+| branch | 🌿 사본 |
 | merge | 🤝 합치기 |
 | stage / add | 🧺 담아두기 |
 | stash | 🗄️ 잠깐 치워두기 |
-| rebase | ⏳ 줄 세우기 |
+| rebase | ⏳ 순서정리 |
 | conflict | 💥 충돌 |
 
 ### 📊 상태를 한눈에
@@ -94,7 +94,7 @@ cp -r dont-git-afraid .claude/skills/
 ```
 🟢 안전  [█░░░]    — 세이브, GitHub에 올리기
 🟡 조심  [██░░]    — 받아오기 (고치던 파일 있을 때)
-🟠 주의  [███░]    — 합치기, 줄 세우기
+🟠 주의  [███░]    — 합치기, 순서정리
 🔴 위험  [████]    — 강제 덮어쓰기
 ```
 
@@ -168,7 +168,7 @@ push하면 자동 배포되는 흐름을 한눈에:
 ## 전체 커버리지
 
 ### Git 작업 (15가지)
-세이브, GitHub에 올리기, 받아오기, 콤보(한번에), 갈래 이동, 갈래 만들기, 합치기, 줄 세우기, 강제 덮어쓰기, 되돌리기, 가져오기(clone), 저장소 만들기(init), GitHub 연결, 치워두기(stash), 꺼내기
+세이브, GitHub에 올리기, 받아오기, 콤보(한번에), 사본 이동, 사본 만들기, 합치기, 순서정리, 강제 덮어쓰기, 되돌리기, 가져오기(clone), 저장소 만들기(init), GitHub 연결, 치워두기(stash), 꺼내기
 
 ### 상태 판별 (6가지)
 ✨ 깨끗 / 📝 작업 중 / 🧺 담아둔 상태 / ⬆️ 안 올린 게 있음 / 💥 충돌 / 😱 과거 모드

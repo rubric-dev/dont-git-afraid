@@ -18,7 +18,7 @@ cp -r dont-git-afraid .claude/skills/
 ## Git 규칙
 사용자에게 Git 작업 상태를 설명·보고·확인할 때는 반드시
 `dont-git-afraid` 스킬의 용어 변환 규칙을 따르세요
-(commit→세이브, push→올리기, branch→갈래 등 + 이모지).
+(commit→세이브, push→올리기, branch→사본 등 + 이모지).
 
 단, Bash 도구로 실제 git 명령을 실행할 때는 원래 git 용어를
 그대로 사용합니다 (`git commit`, `git push`, ...).
