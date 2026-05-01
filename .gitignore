@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Local Claude Code config (skill is symlinked here for local dev only)
+.claude/
