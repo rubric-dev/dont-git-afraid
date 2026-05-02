@@ -70,7 +70,7 @@ If it looks like this, you're set!
 | branch | 🌿 copy |
 | merge | 🤝 combine |
 | stage / add | 🧺 pack |
-| stash | 🗄️ shelf it |
+| stash | 🗄️ shelve it |
 | rebase | ⏳ reorder |
 | conflict | 💥 clash |
 
@@ -175,7 +175,7 @@ The "push triggers a deploy" flow at a glance:
 ## Full coverage
 
 ### Git operations (15)
-Save, upload, download, combo (one-shot), switch copy, make a copy, combine, reorder, force overwrite, rewind, grab a copy (clone), start a project home (init), connect GitHub, shelf it (stash), unshelve
+Save, upload, download, combo (one-shot), switch copy, make a copy, combine, reorder, force overwrite, rewind, grab a copy (clone), start a project home (init), connect GitHub, shelve it (stash), unshelve
 
 ### Status detection (6)
 ✨ clean / 📝 working / 🧺 packed / ⬆️ unpublished / 💥 clash / 😱 time-travel mode
