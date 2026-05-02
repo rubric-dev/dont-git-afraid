@@ -41,7 +41,7 @@ Never use raw Git terms with the user. Always swap them for the friendly version
 | branch | copy | 🌿 |
 | merge | combine | 🤝 |
 | stage / git add | pack | 🧺 |
-| stash | shelf it | 🗄️ |
+| stash | shelve it | 🗄️ |
 | rebase | reorder | ⏳ |
 | checkout / switch | switch copy | 🚶 |
 | conflict | clash | 💥 |
@@ -167,7 +167,7 @@ If the user doesn't seem to get it, explain like this:
    So:
    💾 Save     = mark "I'm done up to here" on your computer
    ☁️ Upload   = send those marks to GitHub
-   📥 Download = grab whatever's new on GitHub onto your computer
+   📥 Download = grab whatever's new on GitHub to your computer
 
    Saved but didn't upload?
    → It only exists on your computer, not on GitHub!
@@ -555,12 +555,12 @@ Easiest way:
 🤔 Not sure what to do? Use this one!
 ```
 
-## Shelf it (git stash)
+## Shelve it (git stash)
 
 **After shelving:**
 ```
 ✅ Shelved!
-   🗄️ Drawer #1: 3 files
+   🗄️ Shelf #1: 3 files
    📂 Workspace is clean now.
 When you're done with the other thing, say "unshelve it".
 ```
@@ -644,7 +644,7 @@ See `deploy-guide.md`.
 
 Key idea: just upload (push) and Vercel/Netlify deploys for you.
 
-## Hard behavior rules
+## Strict behavior rules
 
 1. **Don't show raw Git commands.** Hide the actual git invocations.
 2. **Don't show hashes (like `804b133`).** Show the save message ("Login done") instead. Hashes mean nothing to the user.

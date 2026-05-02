@@ -64,7 +64,7 @@ When you open the file, you'll see this:
 📌 STEP 3 — finish up
 
 Once you've fixed all the clashes, make a save point.
-Just say "save" or "commit it".
+Just say "save" or "save it".
 
 I can help too:
    "Show me both versions"  — I'll explain the differences
