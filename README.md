@@ -1,6 +1,8 @@
 # Don't Git Afraid 🎮💾
 
 > Git이 무서운 바이브코더를 위한 AI 에이전트 스킬
+>
+> 🇬🇧 English version: [README.en.md](./README.en.md)
 
 ## 이게 뭔데?
 

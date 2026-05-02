@@ -1,5 +1,7 @@
 # Don't Git Afraid — 설치 가이드
 
+> 🇬🇧 English version: [INSTALL.en.md](./INSTALL.en.md)
+
 > Git이 무서운 분들을 위한 스킬이니까, 설치도 Git 없이 할 수 있게 만들었어요. 🙂
 
 ## 🟢 방법 1 — ZIP 다운로드 (Git 몰라도 OK, 추천)
