@@ -23,13 +23,18 @@ GitHub에 있는 기록을 내 걸로 완전히 바꿔버려요!
 
 ## 설치 (1분)
 
-### 1. 스킬 폴더 복사
+> Git 몰라도 설치할 수 있게 ZIP 방식을 먼저 소개해요. 🙂
 
-```bash
-# 프로젝트 폴더에서
-mkdir -p .claude/skills
-cp -r dont-git-afraid .claude/skills/
-```
+### 1. ZIP 다운받기
+
+1. 이 페이지 위쪽 초록색 **`<> Code`** 버튼 → **Download ZIP**
+2. 압축 풀기
+3. 안에 있는 **`dont-git-afraid`** 폴더를 `.claude/skills/`에 넣기
+   - 이 프로젝트에서만 쓰려면: `내 프로젝트/.claude/skills/dont-git-afraid/`
+   - 모든 프로젝트에서 쓰려면: `~/.claude/skills/dont-git-afraid/`
+   - 폴더가 없으면 직접 만들어주세요
+
+> Git이 익숙하다면 `git clone` 으로 받아서 `dont-git-afraid` 폴더만 옮겨도 돼요. 자세한 건 [INSTALL.md](./INSTALL.md) 참고.
 
 ### 2. CLAUDE.md에 추가
 
